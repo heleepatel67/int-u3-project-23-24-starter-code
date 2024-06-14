@@ -12,6 +12,8 @@
 
 /* Feel free to change any of the styling below!*/
 html,
+
+
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ body {
 /* Style the body with a background color or image if desired */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f1e185;
     text-align: center;
     padding: 20px;
 }
@@ -34,8 +36,8 @@ body {
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #ec99f5;
+    border: 1px solid #03290b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -64,7 +66,7 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
+    background-color: #1a4409;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -80,30 +82,51 @@ button:hover {
 .option-one-screen,
 .option-two-screen,
 .option-one-end,
-.option-two-end {
-    background-color: #fff;
+.option-two-end,
+.kill-them-button,
+.steal-from-JB,
+.Run-end,
+.Hide-end,
+.Yes,
+.No {
+    background-color:#ec99f5;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    display: none;
 }
 
 /* Style the images in the screens */
 .option-one-screen img,
 .option-two-screen img,
 .option-one-end img,
-.option-two-end img {
+.option-two-end img, 
+.kill-them-button,
+.steal-from-JB,
+.Run-end,
+.Hide-end,
+.Yes,
+.No {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    /* display: none; */
 }
 
 /* Style the text in the screens */
 .option-one-screen h1,
 .option-two-screen h1,
 .option-one-end h1,
-.option-two-end h1 {
+.option-two-end h1,
+.kill-them-button,
+.steal-from-JB,
+.Run-end,
+.Hide-end,
+.Yes,
+.No {
     font-size: 20px;
     margin-bottom: 20px;
+    /* display: none; */
 }
